@@ -151,6 +151,7 @@
     }
     .btn
     {
+        border: none !important;
         display: flex !important;
         justify-content: flex-end;
         width: 100%;
@@ -205,12 +206,26 @@
         }
     }
     
-
+    html, body{
+        height: 100%;
+    }
     /*RESPONSIVE*/
     @media(max-width: 1024px)
     {
+        .allproject{
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        html, body{
+            height: 100%;
+            background-color: #1c1c1c !important;
+        }
+        .project .headtitle h1::after{
+            width: 75%;
+        }
         .project{
-            height:100vh;
+            height:100%;
             background-color: #1c1c1c;
         }
         .navbar{

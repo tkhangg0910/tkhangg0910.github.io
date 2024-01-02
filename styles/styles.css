@@ -183,7 +183,28 @@
 .glider{
     justify-content: space-between;
 }
-
+.btn
+{
+    display: flex !important;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 30px auto 10px auto;
+    padding: 0 10px;
+    border: none !important;
+}
+.btn button{
+    position: static !important;
+    transform: translate(0,0);
+    background-color: #f3f3f3;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+}
 /*RESPONSIVE*/
 @media(max-width: 1000px)
 {
@@ -216,6 +237,9 @@
         padding: 5px;
         
         margin: 0 21px;
+    }
+    .skill header h1::after{
+        width:30%;
     }
     #avtres{
         height: auto;

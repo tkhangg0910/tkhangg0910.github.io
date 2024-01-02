@@ -89,6 +89,7 @@
 
 .btn
     {
+        border: none !important;
         display: flex !important;
         justify-content: flex-end;
         width: 100%;
@@ -127,6 +128,9 @@
 /*RESPONSIVE*/
 @media(max-width: 1000px)
 {
+    .achievement .headtitle h1::after{
+        width: 85%;
+    }
     .achievement .headtitle h1{
         font-size: 50px;
         position: relative;

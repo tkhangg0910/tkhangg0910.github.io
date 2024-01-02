@@ -234,6 +234,9 @@ textarea {
 }
 @media(max-width: 726px)
 {
+    .contact h2::after{
+        width: 65%;
+    }
     .contactform{
         justify-content: center;
         padding-left: 40px ;
