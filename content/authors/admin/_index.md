@@ -1,10 +1,10 @@
 ---
 # Name pronunciation (optional)
-name_pronunciation: Tan Khang Huynh
+name_pronunciation: Khang T. Huynh
 
 # Full name (for SEO)
 first_name: Huynh
-last_name: Tan Khang
+last_name: Khang T.
 
 # Status emoji
 status:
