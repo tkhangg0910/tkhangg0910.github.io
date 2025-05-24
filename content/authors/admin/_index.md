@@ -53,8 +53,8 @@ interests:
 education:
   - area: BSC. Computer Science
     institution: University Of Information Technology(UIT)
-    date_start: 2023-10
-    date_end: 2026-6
+    date_start: 2023-10-1
+    date_end: 2026-6-1
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -65,8 +65,8 @@ work:
     company_name: TMA Solution
     company_url: 'https://www.tmasolutions.vn/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2025-02-23
+    date_end: '2025-05-23'
     summary: |
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
