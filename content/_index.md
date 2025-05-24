@@ -1,20 +1,18 @@
 ---
-# Leave the homepage title empty to use the site title
+# Để trống title để mặc định lấy tên site trong config.toml
 title: ""
 date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
-  spacing: "6rem"
+  spacing: "6rem"  # khoảng cách mặc định giữa các section
 
 sections:
+  # Phần tiểu sử (resume biography)
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      username: admin  # tên user trong thư mục content/authors/admin
+      text: ""         # bạn có thể thêm giới thiệu ngắn nếu muốn
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -23,13 +21,14 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
+  # Phần markdown giới thiệu mục nghiên cứu
   - block: markdown
     content:
       title: '📚 My Research'
@@ -42,6 +41,8 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+
+  # Phần giới thiệu các bài báo nổi bật (featured publications)
   - block: collection
     id: papers
     content:
@@ -53,6 +54,8 @@ sections:
     design:
       view: article-grid
       columns: 2
+
+  # Phần các bài báo gần đây (recent publications)
   - block: collection
     content:
       title: Recent Publications
@@ -63,6 +66,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
+  # Ẩn phần talks bằng cách đặt visible: false
   - block: collection
     id: talks
     visible: false
@@ -74,37 +79,13 @@ sections:
     design:
       view: article-grid
       columns: 1
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
+
+  # Ẩn phần teaching hoàn toàn bằng cách không khai báo hoặc cũng có thể ẩn như talks nếu có
+  # Nếu bạn từng khai báo thì xóa hoặc đặt visible: false
+
+  # Phần CTA (Call To Action) card - hiện tại demo chỉ hiển thị khi chạy local, deploy sẽ không hiển thị
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false  # sửa thành false để hiển thị trên web khi deploy
     content:
       title: 👉 Build your own academic website like this
       text: |-
@@ -120,7 +101,6 @@ sections:
         url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 ---
