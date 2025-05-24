@@ -1,6 +1,6 @@
 ---
 # Name pronunciation (optional)
-name_pronunciation: Khang T. Huynh
+name_pronunciation: Khang Tan Huynh
 
 # Full name (for SEO)
 first_name: Huynh
