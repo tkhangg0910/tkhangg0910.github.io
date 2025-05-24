@@ -62,6 +62,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    content:
+      title: Awards
+      text: ""
+      filters:
+        folders:
+          - awards
+        exclude_featured: false
+    design:
+      view: citation
 
   # # Ẩn phần talks bằng cách đặt visible: false
   # - block: collection
