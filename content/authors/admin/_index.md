@@ -64,14 +64,16 @@ work:
   - position: AI Engineer Intern
     company_name: TMA Solution
     company_url: 'https://www.tmasolutions.vn/'
-    company_logo: ''
+    company_logo: 'assets\media\TMA-logo.png'
     date_start: 2025-02-23
     date_end: '2025-05-23'
-    # summary: |
-    #   Responsibilities include:
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: |
+      Responsibilities include:
+      - Researched, implemented, and trained computer vision models for sign language translation.
+      - Applied optimization techniques to reduce model inference time, including Input-Adaptive (IA) methods.
+      - Integrated alternative attention mechanisms to lower model complexity, such as SparseProb Attention and Linear Attention.
+      - Explored SiFormer, a state-of-the-art model for sign language recognition.
+      - Investigated approaches for generating sign language from spoken language input.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
