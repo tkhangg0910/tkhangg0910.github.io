@@ -64,7 +64,7 @@ work:
   - position: AI Engineer Intern
     company_name: TMA Solution
     company_url: 'https://www.tmasolutions.vn/'
-    company_logo: 'assets\media\TMA-logo.png'
+    company_logo: 'TMA-logo.png'
     date_start: 2025-02-23
     date_end: '2025-05-23'
     summary: |
