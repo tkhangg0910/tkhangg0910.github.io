@@ -43,12 +43,12 @@ profiles:
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
   #   url: https://orcid.org/
-  
+
 interests:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
-  - Multimodal AI
+  - Multimodal Learning
   - Generative Model
 
 education:
