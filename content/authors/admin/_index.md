@@ -47,7 +47,7 @@ interests:
   - Artificial Intelligence
   - Computational Linguistics
   - Information Retrieval
-  - Vision Language Model
+  - Multimodal AI
   - Generative Model
 
 education:
