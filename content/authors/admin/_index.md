@@ -43,7 +43,7 @@ profiles:
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
   #   url: https://orcid.org/
-
+  
 interests:
   - Artificial Intelligence
   - Computational Linguistics
